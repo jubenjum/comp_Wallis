@@ -9,7 +9,7 @@ function wallis(n)
 end
 
 function main()
-    n = 1000000
+    n = 100000000
     res = wallis(n)
     println("$n = $res")
 end
